@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.buy-Check-inner-frame {width: 1080px; margin: 0 auto;}
+.buy-Check-top {height: 70px; border-bottom: 3px solid #777;}
+.buy-Check-top > h3 {padding: 20px 0; font-size: 23px; margin: 0; float: left;}
+.buy-Check-top > span {font-size: 12px; color: #346aff; float: right; padding: 29px 5px 0 0;}
+.who-buy-info-box {clear: both; padding-top: 30px;}
+.who-buy-info-box table {border-collapse: collapse; width: 100%;}
+.who-buy-info-title {font-size: 20px; padding-bottom: 12px;}
+.who-buy-info-table {border-top: 2px solid #cecece;}
+.who-buy-info-table-col > td {padding: 12px 10px 12px 10px; font-size: 12px; border-bottom: 1px solid #e4e4e4;}
+.who-buy-info-table-col > td:first-child {width:104px; text-align: right; font-weight: bold; border-right: 1px solid #e4e4e4; background-color: #f4f4f4;}
+.who-buy-info-table-col > td:last-child {text-align: left;}
+.baesong-detail-box > ul {padding: 0; margin: 0; display: flex;}
+.baesong-detail-box > ul > li {list-style-type: none; margin: 0 6px;}
+.payment-option > ul {padding: 0; margin: 0; display: flex;}
+.payment-option > ul > li {list-style-type: none; margin: 0 6px;}
+.baesong-radio {margin: 2px 0; vertical-align: text-top;}
+#payment-option-col {padding: 12px 0;}
+.btns {text-align: center; padding-top: 30px;}
+.btns > a {display: inline-block; width: 260px; height: 56px; line-height: 56px; text-align: center; font-size: 20px; font-weight: bold; border-radius: 5px; border: 2px solid #05665B; color: #05665B; margin-right: 15px;}
+.btns > button {width: 260px; height: 60px; font-size: 20px; font-weight: bold; border-radius: 5px; border: none; outline: none; background-color: #079685; color: #fff; transition: all 0.5s; cursor: pointer;}
+.payment-radio { vertical-align: text-top; margin: 2px 0;}
+#cellph-detail,#goods-detail {font-size: 12px; color: #9a9a9a; margin-left: 10px;}
+#nomal-address {font-size: 11px; color: #555; border: 1px solid #555; border-radius: 15px; padding: 3px; margin-left: 10px;}

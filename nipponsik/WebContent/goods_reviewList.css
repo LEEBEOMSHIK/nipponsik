@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.review-tab-inner > ul {display: flex; margin: 0; padding: 0; width: 100%;}
+.review-tab-inner > ul > li {list-style-type: none; flex: 1; padding: 15px 0; font-size: 15px; font-weight: bold; border-top: 1px solid #111; border-right: 1px solid #ccc; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; background-color: #f9f9f9; color: #555; cursor: pointer;}
+.review-tab-inner > ul > li:last-child {border-left: none;}
+.tab-click {background-color: #fff !important; color: #111!important; }
+.buy-product-box {border-bottom: 1px solid #ccc;}
+.buy-product-content-box {display: flex; padding: 20px 20px 20px 30px;}
+.buy-product-img-box > img {width: 100px; height: 100px;}
+.buy-product-detail-name {font-size: 14px; font-weight: bold;}
+.buy-product-detail-detail {font-size: 12px; margin-top: 5px; width: 430px;}
+.buy-product-detail-baesong {font-size: 12px; color: #888; margin-top: 30px;}
+.buy-product-detail-box {padding:10px 30px 0 30px; width: 615px; box-sizing: border-box;}
+.buy-product-btn-box {display: block; float: right; margin-top: 30px;}
+.buy-product-btn-box > button {height: 36px; border: 1px solid #079685; border-radius:3px; font-size: 14px; font-weight:bold; color: #079685; background-color: #fff; cursor: pointer;}
+.no-buy-product-box {text-align: center; padding: 70px; border-bottom: 1px solid #ccc;}
+
+/*리뷰한 부분의 디자인*/
+.tab-margin {margin-top: -30px;}
+.reviewed-content-top {display: flex; padding: 10px 20px; box-sizing: border-box; border-bottom: 1px solid #eee;}
+.reviewed-product-img > img {width: 40px; height: 40px;}
+.reviewed-product-name {padding:0 20px; line-height: 45px; width: 680px;}
+.reviewed-product-name > a {color: #079685; font-size: 14px;}
+.modify-delete-box {width: 120px; text-align: right; line-height: 44px;}
+.modify-delete-box > button {font-size: 14px; color: #079685; background-color: transparent; border: none; cursor: pointer;}
+.modify-delete-box > button:first-child:after {content: ""; display: inline-block; width: 1px; height: 16px; background-color: #d5d5d5; margin-left: 10px; vertical-align: -3px;}
+.modify-delete-box > button:last-child {margin-left: -10px;}
+.reviewed-content-bottom {padding: 20px 20px 30px 20px; border-bottom: 1px solid #aaa;}
+.star-point {padding-bottom: 20px; display: flex;}
+.star-point > span {color: #888; font-size: 12px; padding-left: 10px;}
+.star-point > ul {display: flex; margin: 0; padding: 0;}
+.star-point > ul > li {list-style-type: none;}
+.star-point > ul > li > img {width: 16px; height: 16px;}
+.reviewed-content-inner-box {padding-bottom: 20px; font-size: 14px;}
+.reviewed-safac-table-col > td {font-size: 14px;}
+.reviewed-safac-table-col > td:first-child {font-weight: bold;}
+
+/*탭 클릭 시에 대한 display none 부분*/
+.reviewBox {display: none;}

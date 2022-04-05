@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper">
+<select id="productselectOne" parameterType="int" resultType="productDTO.ProductDTO"> 
+  select*from goods where goods_code = #{goods_code};
+</select>
+
+<select id="selectcategory" parameterType="int" resultType="productDTO.ProductDTO">
+  select*from goods where goods_category = #{goods_category};
+</select>
+
+<select id="selectcategorycount" parameterType="int" resultType="int">
+  select count(*) from goods where goods_category = #{goods_category};
+</select>
+
+</mapper>

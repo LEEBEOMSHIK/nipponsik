@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.grume-detail-box {padding-top: 40px;}
+.grume-detail-inner-box {margin: 0 auto; width: 1080px;}
+.grume-detail-inner-frame {border: 1px solid #ddd; padding: 15px 0px 10px 0px;}
+.grume-detail-inner-frame > table {width: 100%; padding: 0 10px;}
+.grume-detail-inner-frame-col {text-align: right;}
+.grume-detail-title-box > h1 {color: #444; font-size: 20px; margin: 0;}
+.grume-detail-japanese {font-size: 12px; color: #079685; padding-top: 9px;}
+.grume-detail-info-box {padding-top: 10px;}
+.detail-info-design {padding: 5px; border: 1px solid #d8dbd0; background-color: #fafaf7;}
+.grume-detail-info-box span , a {font-size: 12px; color: #444;}
+
+/*탭 부분 디자인*/
+.grume-detail-navi {padding-top: 14px; position: relative; padding-bottom: 48px;}
+.grume-detail-navi > ul {margin: 0; padding: 0; display: flex; width: 100%; position: absolute;}
+.grume-detail-navi > ul > li {list-style-type: none; flex: 1; height: 45px; border: 1px solid #ddd; border-left:none; border-bottom:2px solid #079685; background-color: #f9f9f9; color: #736b61; font-size: 15px; text-align: center; line-height: 45px; cursor: pointer;}
+.grume-detail-navi > ul > li:last-child {border-right: none;}
+.grume-detail-navi .tab-on {background-color: #079685; color: #fff; border: 1px solid #079685; border-bottom: 2px solid #079685;}
+
+
+.grume-detail-box-content {padding: 20px 20px 10px;}
+.grume-detail-img-info {text-align: center; color: #666; padding: 5px 20px 0; font-size: 12px;}
+.grume-detail-content-col {padding: 0 25px 30px 25px; vertical-align: top;}
+.grume-detail-content-col > table {width: 100%;}
+.grume-detail-content-first-col {width: 390px;}
+.grume-detail-content-title {font-size: 20px; padding-bottom: 30px; font-weight: bold;}
+.grume-detail-content-content {font-size: 17px;}
+.grume-detail-box-content > table {width: 100%;}
+.grume-detail-content-second-col > ul {margin: 0; padding: 95px 0 0 0;}
+.grume-detail-content-second-col > ul > li {list-style-type: none;}
+.grume-basic-info-box {padding: 30px 0;}
+.grume-menu-title {font-size: 18px; font-weight: bold; color: #444;}
+.fontWeight > td {font-weight: bold;}
+.grume-menu-box {padding-bottom: 30px;}
+.grume-menu-box > table {width:100%; border-collapse: collapse; border-spacing: 0; border-top: 2px solid #323846;}
+.grume-menu-table-col > td {text-align: center; font-size: 12px; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; height: 35px;}
+.grume-menu-table-col > td:last-child {border-right: 1px solid #ccc;}
+.grume-foods-character {padding-bottom: 30px;}
+.grume-foods-character > table {width: 100%; border-collapse: collapse; border-spacing: 0;}
+.grume-foods-title {font-size: 20px; font-weight: bold;}
+.grume-foods-small-title {font-size: 15px; font-weight: bold; color: #079685; padding: 10px 0 15px 0;}
+.grume-foods-character-col > img {width: 360px;}
+.grume-foods-content > ol {margin: 0; padding: 0 20px 20px 30px;}
+.grume-foods-content > ol > li {font-size: 14px; color: #444;}
+.vertitop {vertical-align: top;}
+.grume-foods-character-col .img-change {width: 200px;}
+.pad-left {padding-left: 20px;}
+.inner-content-box {padding-top: 20px;}
+.inner-content-title {font-size: 16px; font-weight: bold;}
+#map {height: 500px;}
+#mapContent {font-size: 12px;}
